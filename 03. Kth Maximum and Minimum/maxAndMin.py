@@ -5,8 +5,8 @@ k = int(input("Enter the value of K: \n"))
 listOfElements.sort()
 max = listOfElements[size-1]
 min = listOfElements[0]
-minCount = k
-maxCount = k
+minCount = k-1
+maxCount = k-1
 for item in listOfElements[::-1]:
     if(item<max and maxCount>=1):
         max = item
